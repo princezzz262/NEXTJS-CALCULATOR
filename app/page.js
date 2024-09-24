@@ -1,11 +1,12 @@
 import Image from "next/image";
-import ToggleDnN
- from "./toggleDnN";
+import Headspace
+ from "./Headspace";
+import Title from "./Headspace";
 export default function Home(){
   return (
-    <main className=" p-4">
+    <main className=" p-8">
         <nav>
-           <ToggleDnN/>
+           <Title/>
         </nav>
     </main>
   )
