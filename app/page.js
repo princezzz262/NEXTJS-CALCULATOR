@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Headspace
- from "./Headspace";
-
+import Headspace from "./Headspace";
+import Keypad from "./Keypad";
 
 export default function Home(){
   return (
@@ -9,6 +8,7 @@ export default function Home(){
         <nav>
            <Headspace/>
         </nav>
+        <Keypad/>
     </main>
   )
 }
